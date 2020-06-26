@@ -21,7 +21,7 @@ def  wishme():
         engine.say("Good Afternoon!")
     else:
         engine.say("Good Evening!")
-    engine.say("I am  webby gautam the great . Please tell me how may I help you")
+    engine.say("I am  webby ,your name, . Please tell me how may I help you")
     engine.runAndWait()
 def time():
     engine.say('it is')
@@ -38,44 +38,27 @@ while running==True:
                 webbrowser.open('https://youtube.com/')
                 engine.runAndWait()
                 break
-            if command=="google":
-                engine.say('ok gautam')
+            if command=="google
                 webbrowser.open('www.google.com')
                 engine.runAndWait()
                 break
-            if command=="teams":
-                engine.say('ok gautam')
-                webbrowser.open("https://www.office.com/?auth=2")
-                engine.runAndWait()
-                break
             if command=="music":
-                music_dir = 'D:\\My Music E\\English Songs\\La Bamba and other Hits'
+                music_dir = 'add your music path'
                 songs = os.listdir(music_dir)
                 os.startfile(os.path.join(music_dir,songs[1] ))
             if command=="movie":
-                movie_dir=''
+                movie_dir='add your movie path'
                 movies=os.listdir(movie_dir)
                 os.startfile(os.path.join(movie_dir,movies[0]))
                 break
             if command=='time':
                 time()
             if command=='images':
-                image_dir="D:\My Pictures E"
+                image_dir="add your image path "
                 images=os.listdir(image_dir)
                 os.startfile(os.path.join(image_dir,images[random]))
             if command=="arduino":
-                arduinppath="C:\\Program Files (x86)\\Arduino\\arduino.exe"
+                arduinppath="add your arduino's .exe file's path"
                 os.startfile(arduinppath)
                 break
-            if command=="pycharm":
-                pypath="C:\\Users\\Sandeep\\Desktop\\someThing\\PyCharm Community Edition 2019.3.4\\bin\\pycharm64.exe"
-                os.startfile(pypath)
-            if command=="android studio":
-                aspath="C:\\Program Files\\Android\\Android Studio\\bin\\as.exe"
-                os.startfile(aspath)
-            if command=="unity installer":
-                unity="C:\\Program Files\\Unity Hub\\Unity Hub.exe"
-                os.startfile(unity)
-            if command=='vsi':
-                vsi=""
-                os.startfile()
+          
